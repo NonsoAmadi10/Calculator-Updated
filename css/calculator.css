@@ -1,0 +1,73 @@
+body {  
+    background: linear-gradient(60deg, red, orangered, orange);  
+    margin: 0px auto;  
+    text-align:center;
+    width:100%;
+    height: 80%;
+    overflow-x: hidden;
+      
+    }  
+    .calbody{  
+     background: #097C9B;  
+     border: 1px solid #ff0;  
+     padding: 10px;  
+     text-align:center; 
+     min-width: 27.4em;  
+     max-width: 27.4em;  
+     margin-left: 30%;
+       
+    }  
+    #message{
+        background-color: #fff;
+        width: 500px;
+        height: 700px;
+        text-align: center;
+        padding: 20px;
+        opacity: 1;
+        border: 2px solid #000;
+    position: absolute;
+    left: 300px;
+        margin: 20px;
+    }
+    .buttons{
+        
+        font-size: 10px;
+        padding: 15px;
+    }
+    .buttons :hover{
+        background: orangered;
+    }
+    input[type=button]{
+        width: 90px;
+        height: 80px;
+        font-size: 20px;
+        margin : 3px;
+        cursor: pointer;
+        border: none;
+        background: #333;
+        color: white;
+    
+    }
+    
+    
+     .textview{
+         padding: 10px;
+         width: 400px;
+         height: 90px;
+         font-size: 40px;
+     }
+     #log{
+         background: rgb(255, 0 ,0 );
+         width: 190px;
+        }
+        #peel{
+            background: rgb(255, 150, 0);
+        }
+        #eel{
+            background: rgb(100,255,10);
+        }
+        @media (max-width: 768px){
+            .calbody{
+                margin-left: 10%;
+            }
+        }
